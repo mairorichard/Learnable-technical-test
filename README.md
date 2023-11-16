@@ -1,4 +1,24 @@
-# React + Vite
+# Daniel learnable technical test solution
+
+## Getting started
+
+To run code, run the flowing instructions;
+
+- cd into the root folder
+- npm install
+- npm run dev
+
+## Overview
+
+This solution was done using React + Vite and Tailwind CSS
+
+- Live link: https://daniel-learnable.vercel.app/
+
+## Screenshot
+
+![ScreenShot](./src/assets/learnable.png)
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
