@@ -12,11 +12,11 @@ const Landing = () => {
 
       {/* main */}
 
-      <div className="mx-24 my-12 flex items-center justify-between gap-20">
+      <div className="mx-5 md:mx-14 lg:mx-24 my-12 flex flex-col md:flex-row items-center justify-between gap-10 md:gap-16 lg:gap-20">
         {/* left */}
         <div className="">
-          <div className="flex flex-col gap-12">
-            <div className="">
+          <div className="flex flex-col items-center md:items-start gap-6 md:gap-12">
+            <div className="text-center md:text-left">
               <p className="text-[#44C3EBCC] text-xl font-medium tracking-wide">
                 Trendiest Fashion ever
               </p>

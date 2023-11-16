@@ -23,7 +23,7 @@ const SignIn = () => {
 
   return (
     <div className="relative bg-orange-500">
-      <Link to={"/"} className="absolute top-10 right-10">
+      <Link to={"/"} className="absolute top-4 right-4 md:top-10 md:right-10">
         <img src={Close} alt="" />
       </Link>
       <div
@@ -35,9 +35,9 @@ const SignIn = () => {
         //   backgroundRepeat: "no-repeat",
         // }}
       >
-        <div className="flex items-center bg-white rounded-2xl overflow-hidden">
+        <div className="flex items-center mx-5 bg-white rounded-2xl overflow-hidden">
           <div className="flex-[1]">
-            <div className="flex flex-col items-center gap-8 mx-8">
+            <div className="flex flex-col items-center gap-8 mx-4 my-7">
               <div className="">
                 <img src={Logo} alt="" />
               </div>
@@ -55,7 +55,7 @@ const SignIn = () => {
                     return (
                       <div
                         key={index}
-                        className="border cursor-pointer border-gray-500 w-[350px] py-2 flex items-center justify-center gap-4 rounded-full"
+                        className="border cursor-pointer border-gray-500 w-[250px] md:w-[350px] py-2 flex items-center justify-center gap-4 rounded-full"
                       >
                         <div className="">
                           <img src={item.icon} alt="" />
@@ -70,8 +70,12 @@ const SignIn = () => {
           </div>
 
           {/* img */}
-          <div className="flex-[1]">
-            <img className="h-fit" src={Signimg} alt="" />
+          <div className="flex-[1] hidden md:block">
+            <img
+              className="h-full rounded-2xl lg:rounded-none"
+              src={Signimg}
+              alt=""
+            />
           </div>
         </div>
       </div>
