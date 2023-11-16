@@ -39,6 +39,10 @@ const Landing = () => {
         </div>
         {/* /right */}
       </div>
+
+      <div className="">
+        <p className="text-center py-6">Developed by Nzedaniel98@gmail.com</p>
+      </div>
     </div>
   );
 };

@@ -75,6 +75,12 @@ const SignIn = () => {
           </div>
         </div>
       </div>
+
+      <div className="">
+        <p className="text-center text-white py-6">
+          Developed by Nzedaniel98@gmail.com
+        </p>
+      </div>
     </div>
   );
 };
