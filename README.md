@@ -16,7 +16,7 @@ This solution was done using React + Vite and Tailwind CSS
 
 ## Screenshot
 
-![ScreenShot](/src/assets/learnable.png)
+![](./src/assets/learnable.png)
 
 ## React + Vite
 
